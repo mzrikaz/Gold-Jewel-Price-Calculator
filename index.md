@@ -1,7 +1,4 @@
-
-<body>
-
-    <div class="container mt-3">
+<div class="container mt-3">
         <div class="col-sm-10 offset-sm-1">
             <form class="row g-3 needs-validation mt-3" id="calform" novalidate>
               <div class="col-12">
@@ -65,5 +62,3 @@
     </div>
 
     <script src="script.js"></script>
-</body>
-</html>

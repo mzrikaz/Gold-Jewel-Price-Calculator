@@ -1,5 +1,21 @@
+var url = "https://api.mrberry.ga/v1/sea-street-gold-rate";
+
+var xhr = new XMLHttpRequest();
+xhr.open("GET", url);
+
+xhr.onreadystatechange = function () {
+   if (xhr.readyState === 4) {
+      console.log(xhr.status);
+      console.log(xhr.responseText);
+      let jsonData = JSON.parse(xhr.responseText);
+      document.querySelector("#goldPrice").innerText = jsonData.rate;
+   }};
+
+xhr.send();
+
 document.querySelector("#calform").onsubmit = function(e) {
     e.preventDefault();
+    
     
     let price = parseFloat(document.querySelector("#goldPrice").value);
     let karat = parseInt(document.querySelector("#karat").value);

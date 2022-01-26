@@ -1,4 +1,4 @@
-var url = "https://api.mrberry.ga/v1/sea-street-gold-rate";
+var url = "https://rate.goldjewel.ml";
 
 var xhr = new XMLHttpRequest();
 xhr.open("GET", url);

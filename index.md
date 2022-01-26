@@ -3,7 +3,6 @@
 
     <div class="container mt-3">
         <div class="col-sm-10 offset-sm-1">
-            <h1 class="text-center">Gold Jewelry Price Calculator For Buy and Sell in Sri Lanka</h1>
             <form class="row g-3 needs-validation mt-3" id="calform" novalidate>
               <div class="col-12">
                 <label for="validationCustom01" class="form-label">24 கரட் தங்க விலை (1 பவுன்)</label>
